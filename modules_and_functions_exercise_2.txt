@@ -1,0 +1,10 @@
+Run the result in iex. Use both techniques to compile the file.
+
+-> iex times.exs
+-> Times.triple(3)
+-> 9
+
+-> iex
+-> c times.exs
+-> Times.triple(3)
+-> 9
