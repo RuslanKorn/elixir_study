@@ -1,0 +1,11 @@
+The operator rem(a, b) returns the remainder after dividing a by b. Write a
+function that takes a single integer (n) and calls the function in the previous
+exercise, passing it rem(n,3), rem(n,5), and n. Call it seven times with
+the arguments 10, 11, 12, and so on. You should get “Buzz, 11, Fizz, 13,
+14, FizzBuzz, 16.”
+
+fizz_buzz_rem = fn n ->
+  fizz_buzz.({rem(n,3), rem(n,5), n})
+end
+
+[fizz_buzz_rem.(10), fizz_buzz_rem.(11), fizz_buzz_rem.(12), fizz_buzz_rem.(13), fizz_buzz_rem.(14), fizz_buzz_rem.(15), fizz_buzz_rem.(16)]
